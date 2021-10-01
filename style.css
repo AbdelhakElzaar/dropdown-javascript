@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.parent{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card{
+    width: 26%;
+    margin: 10px;
+
+}
+i{
+    font-size: 40px;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 50px;
+    border: 1px solid rgb(175, 174, 174);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+ul{
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .6s ease-in-out; 
+}
+li{
+    text-align: center;
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #3456;
+    padding: 5px 0px;
+
+}
+
+/* color */
+.frontend {
+    color: green;
+}
+.frontend button{
+    color: green;
+}
+.frontend li{
+    border-bottom: 1px solid green;
+}
+
+.backend{
+    color: red;
+
+}
+.backend button{
+    color: red;
+}
+.backend li{
+    border-bottom: 1px solid red;
+}
+.database{
+    color: blue;
+}
+.database button{
+    color: blue;
+}
+.database li{
+    border-bottom: 1px solid blue;
+}
+
+.freelance{
+    color: blueviolet;
+}
+.freelance button{
+    color: blueviolet;
+}
+.freelance li{
+    border-bottom: 1px solid blueviolet;
+}
+
+.app{
+    color: chocolate;
+}
+.app button{
+    color: chocolate;
+}
+.app li{
+    border-bottom: 1px solid chocolate;
+}
+
+.security{
+    color: darkgoldenrod;
+}
+.security button{
+    color: darkgoldenrod;
+}
+.security li{
+    border-bottom: 1px solid darkgoldenrod;
+}
